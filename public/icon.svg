@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded rectangle for icon -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  
+  <!-- 360 Degree Orbit Ring -->
+  <ellipse cx="256" cy="300" rx="190" ry="70" fill="none" stroke="#38BDF8" stroke-width="8" stroke-dasharray="16 10" opacity="0.6"/>
+  <ellipse cx="256" cy="300" rx="190" ry="70" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.3"/>
+  <circle cx="100" cy="270" r="10" fill="#38BDF8"/>
+  <circle cx="410" cy="330" r="8" fill="#38BDF8"/>
+
+  <!-- Isometric House -->
+  <!-- Left Wall -->
+  <polygon points="150,260 256,320 256,410 150,350" fill="#1E293B" stroke="#38BDF8" stroke-width="4"/>
+  <!-- Right Wall -->
+  <polygon points="256,320 362,260 362,350 256,410" fill="#0F172A" stroke="#38BDF8" stroke-width="4"/>
+  
+  <!-- Roof Left -->
+  <polygon points="140,260 256,190 256,230 140,300" fill="url(#roofGrad)" opacity="0.9"/>
+  <!-- Roof Peak & Right -->
+  <polygon points="256,190 372,260 362,270 256,210" fill="#0284C7"/>
+  <polygon points="256,190 256,320 150,260" fill="#38BDF8" opacity="0.5"/>
+  <polygon points="256,190 362,260 256,320" fill="#0284C7" opacity="0.7"/>
+
+  <!-- Door & Windows -->
+  <polygon points="280,335 320,312 320,370 280,392" fill="#38BDF8" opacity="0.8"/>
+  <polygon points="180,295 220,318 220,340 180,320" fill="#F8FAFC" opacity="0.85"/>
+  
+  <!-- 360 Badge -->
+  <g transform="translate(256, 110)">
+    <rect x="-80" y="-30" width="160" height="60" rx="30" fill="#0F172A" stroke="#38BDF8" stroke-width="4"/>
+    <text x="0" y="10" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" fill="#38BDF8" text-anchor="middle">360°</text>
+  </g>
+</svg>

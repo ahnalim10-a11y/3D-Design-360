@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "3D DESIGN 360°",
+  "short_name": "3D Design",
+  "description": "Professional 3D & 2D mobile-first house planning, architectural modeling, and construction estimation application.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

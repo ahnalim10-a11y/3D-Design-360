@@ -1,0 +1,6 @@
+{
+  "name": "3D DESIGN 360°",
+  "description": "Professional 3D & 2D mobile-first house planning, architectural modeling, and construction estimation application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
